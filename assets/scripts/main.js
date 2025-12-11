@@ -5,7 +5,7 @@ const searchInput = document.getElementById("search");
 let allShows = [];
 let filtered = [];
 let page = 0;
-const limit = 6;
+const limit = 8;
 
 fetch("https://api.tvmaze.com/shows")
   .then(r => r.json())
